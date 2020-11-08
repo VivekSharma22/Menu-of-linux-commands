@@ -135,7 +135,8 @@ while True:
             4. view all the storage devices
             5. view all working port in our system
             6. see all the processes running on our system
-            7. create partition, format if and mount it
+            7. create partition, format and mount it
+            
 ''')
         i3=input('Enter your choice--')
         if i3=='1':
@@ -161,7 +162,9 @@ while True:
             os.system("mkdir /{}".format(a))
             b='mount /{}1 /{}'.format(x,a)
             os.system(b)
-
+ #hadoop
+    elif inp=='4':
+        
 
 #docker
     elif inp=='5':
